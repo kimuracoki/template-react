@@ -1,4 +1,5 @@
 import { css } from "@emotion/react";
+import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
 export const Home = () => {
@@ -10,7 +11,7 @@ export const Home = () => {
     return (
         <>
             <h1 css={styles.h1}>This is Home</h1>
-            <button onClick={handleClick}>to About</button>
+            <Button variant="outlined" onClick={handleClick}>to About</Button>
         </>
     );
 }
