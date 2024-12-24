@@ -11,7 +11,7 @@ export const Home = () => {
     return (
         <>
             <h1 css={styles.h1}>This is Home</h1>
-            <Button variant="outlined" onClick={handleClick}>to About</Button>
+            <Button variant="contained" onClick={handleClick}>to About</Button>
         </>
     );
 }
