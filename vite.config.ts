@@ -8,4 +8,9 @@ export default defineConfig({
       jsxImportSource: "@emotion/react",
     }),
   ],
+  resolve: {
+    alias: {
+      "@": "/src",
+    },
+  },
 });
